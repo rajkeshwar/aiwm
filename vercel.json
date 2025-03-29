@@ -1,12 +1,16 @@
 {
     "rewrites": [
         {
-            "source": "/p",
-            "destination": "https://dev.qawmai.com"
+            "source": "/p/(.*)",
+            "destination": "https://dev.qawmai.com/$1"
         },
         {
-            "source": "/xyz",
-            "destination": "https://jsonplaceholder.typicode.com"
+            "source": "/xyz/(.*)",
+            "destination": "https://jsonplaceholder.typicode.com/$1"
+        },
+        {
+            "source": "/api/(.*)",
+            "destination": "https://dev.qawmai.com/$1"
         },
         {
             "source": "/(.*)",
