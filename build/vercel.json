@@ -19,7 +19,7 @@
     ],
     "headers": [
         {
-            "source": "/api/(.*)",
+            "source": "/p/(.*)",
             "headers": [
                 {
                     "key": "Access-Control-Allow-Origin",
