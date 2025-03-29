@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+            "source": "/p",
+            "destination": "https://dev.qawmai.com"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
