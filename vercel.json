@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/p/(.*)",
-            "destination": "https://dev.qawmai.com/$1"
+            "destination": "https://dev.qawmai.com/p/$1"
         },
         {
             "source": "/xyz/(.*)",
