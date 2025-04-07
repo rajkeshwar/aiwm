@@ -5,10 +5,6 @@
             "destination": "https://dev.qawmai.com/p/$1"
         },
         {
-            "source": "/html/(.*)",
-            "destination": "https://dev.qawmai.com/html/$1"
-        },
-        {
             "source": "/xyz/(.*)",
             "destination": "https://jsonplaceholder.typicode.com/$1"
         },
